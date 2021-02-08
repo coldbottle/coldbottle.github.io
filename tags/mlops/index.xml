@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mlops on coldbottle</title>
+    <link>https://coldbottle.github.io/tags/mlops/</link>
+    <description>Recent content in mlops on coldbottle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 26 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://coldbottle.github.io/tags/mlops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>도커(Docker) 프롤로그</title>
+      <link>https://coldbottle.github.io/posts/docker/docker-prologue/</link>
+      <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://coldbottle.github.io/posts/docker/docker-prologue/</guid>
+      <description>도커를 설명할 때 실행환경 가상화라고 한다.
+Computer Science에서 있었던 가상화/추상화를 위한 흐름을 살펴보면, 도커(Docker)가 무엇인지와 각광받는 이유를 알 수 있다.
+Computer Science가 전공이 아닌 독자들도 이해할 수 있게 설명하기 위해서 단편화된 내용들로 구성 하였습니다.
+Virtual Memory 질문으로 시작해보자! OS가 없는 상황에서 프로그램을 개발할 때 고려해야 하는 것은 무엇일까?
+이 질문에 대답하기에 앞서 OS가 하는 역할에 대해서 알면 위의 질문에 답을 할수 있을 것 같다.
+OS는 Computer의 자원(CPU, Memory, Storage등)을 관리하는 역할을 하는 S/W이다.</description>
+    </item>
+    
+  </channel>
+</rss>
