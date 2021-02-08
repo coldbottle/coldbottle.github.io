@@ -40,7 +40,7 @@ OS는 Computer의 자원(CPU, Memory, Storage등)을 관리하는 역할을 하�
 
 OS는 프로세스에게 Memory라는 자원을 추상화한 것이다. 이것을 Virtual Memory라고 한다.
 
-Virtual Memory의 핵심은 프로그램을 개발할 때 Memory관리하는 code가 필요없게 만든 것이다.
+Virtual Memory의 핵심은 프로그램을 개발할 때 Memory관리하는 Code가 필요없게 만든 것이다.
 
 ## Virtual Machine
 
@@ -70,13 +70,13 @@ with open("/path/to/file", "w") as f:
 
 이 프로그램이 Host OS에서 동작하면
 
-Python code -> OS(Host) code -> Physical Disk
+Python Code -> OS(Host) Code -> Physical Disk
 
 위와 같은 경로로 물리적인 Disk에 저장될 것이다.
 
 하지만 이 프로그램이 Guest OS에서 동작한다면?
 
-Python code -> OS(Guest) code -> Virtual Disk -> OS(Host) code -> Physical Disk
+Python Code -> OS(Guest) Code -> Virtual Disk -> OS(Host) Code -> Physical Disk
 
 즉, OS Code가 두번 실행 되게 된다. (Guest, Host)
 
