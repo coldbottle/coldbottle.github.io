@@ -1,7 +1,7 @@
 ---
 author: "coldbottle"
 title: "도커(Docker) 프롤로그"
-date: 2021-01-26
+date: 2021-02-07
 draft: false
 tags: ["docker", "devops", "mlops"]
 categories: ["docker"]
