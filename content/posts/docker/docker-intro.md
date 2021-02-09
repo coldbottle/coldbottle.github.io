@@ -11,14 +11,14 @@ TocOpen: true
 weight: 2
 ---
 
-이번 글에서는 [지난글](../docker-prologue)에 이어서 docker를 사용할 때 꼭 알고 있어야 하는 개념을 정리해보았다.
+이번 글에서는 [지난글](../docker-prologue)에 이어서 docker를 사용할 때 꼭 알고 있어야 하는 개념을 정리해보았습니다.
 ## docker vs dockerd
 
-docker를 설치하게 되면 2가지 Software를 얻게 된다.
+docker를 설치하게 되면 2가지 Software를 얻게 됩니다.
 
 dockerd가 docker daemon의 줄인 말로 Server의 역할을 하고 사용자의 입력을 받아서 Container를 제어합니다.
 
-다른 하나인 docker는 CLI(CommandLine Interface)형태로 제공된 Clinet으로 dockerd에게 명령을 전달할 때 사용된다.
+다른 하나인 docker는 CLI(CommandLine Interface)형태로 제공된 Clinet으로 dockerd에게 명령을 전달할 때 사용됩니다.
 
 CLI 형태의 Client도 있지만, GUI(Graphic User Inferace)형태의 Client가 [Docker Desktop for Window and Mac](https://www.docker.com/products/docker-desktop)도 존재합니다.
 
