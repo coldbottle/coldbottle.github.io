@@ -5,7 +5,7 @@
     <link>https://coldbottle.github.io/tags/docker/</link>
     <description>Recent content in docker on coldbottle</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 09 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://coldbottle.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://coldbottle.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>도커(Docker) 프롤로그</title>
       <link>https://coldbottle.github.io/posts/docker/docker-prologue/</link>
@@ -32,6 +32,19 @@ dockerd가 docker daemon의 줄인 말로 Server의 역할을 하고 사용자�
 다른 하나인 docker는 CLI(CommandLine Interface)형태로 제공된 Clinet으로 dockerd에게 명령을 전달할 때 사용됩니다.
 CLI 형태의 Client도 있지만, GUI(Graphic User Inferace)형태의 Client가 Docker Desktop for Window and Mac도 존재합니다.
 Image vs Container CS(Computer Science)전공인 독자들을 프로그램과 프로세스의 차이를 알고있을 것입니다.</description>
+    </item>
+    
+    <item>
+      <title>Docker Part1</title>
+      <link>https://coldbottle.github.io/posts/docker/docker-part1/</link>
+      <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://coldbottle.github.io/posts/docker/docker-part1/</guid>
+      <description>Part1에서는 Docker의 Image를 만들지 않고 사용해 보는 것을 목표로 합니다.
+Installation 자세한 설치 방법은 운영체제에 따라 달라서 링크로 대체합니다.
+ ubuntu mac window  docker pull Docker Image를 다운 받는 명령입니다.
+다음과 같은 구조를 가지고 있습니다. 좀더 자세한 정보는 링크를 확인하면 됩니다.
+docker pull [OPTIONS] NAME[:TAG|@DIGEST]  NAME  Dockerhub의 경우에 NAME에는 이름만 적어줍니다. 만약, 다른 Container Registry를 사용할 경우에는 이곳에 주소를 적어줍니다.   TAG  TAG가 주어지지 않으면 latest가 default입니다.</description>
     </item>
     
   </channel>
