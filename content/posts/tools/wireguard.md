@@ -62,6 +62,8 @@ Enter a Name for the Client: einstein
 ======================================================================
 ```
 
+#### client list 확인
+
 ```bash
 pivpn list
 ::: Clients Summary :::
