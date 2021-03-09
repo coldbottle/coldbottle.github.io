@@ -13,10 +13,11 @@ weight: 8001
 
 ### VPN을 구성해야 하는 이유?
 
-공용 ip를 하나 더 받아서 활용하고 싶은 needs가 생겼다.
+공용 ip를 하나 더 받아서 활용하고 싶은 needs가 생긴경우,
 
-그래서 oracle에서 무료 인스턴스를 띄워서 vpn을 구성하고, reverse proxy로 사용하면 이 needs를 충족시킬 수 있다.
+oracle에서 무료 인스턴스를 띄워서 vpn을 Server를 구성하고, 공용 ip를 활용하고 싶은 장비를 VPN으로 연결합니다.
 
+이 인스턴스를 reverse proxy로 사용하면 이 needs를 충족시킬 수 있습니다.
 
 
 ### Oracle Cloud에서 무료 인스턴스 받기
