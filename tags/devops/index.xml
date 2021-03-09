@@ -5,7 +5,7 @@
     <link>https://coldbottle.github.io/tags/devops/</link>
     <description>Recent content in devops on coldbottle</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 21 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://coldbottle.github.io/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://coldbottle.github.io/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>도커(Docker) 프롤로그</title>
       <link>https://coldbottle.github.io/posts/docker/docker-prologue/</link>
@@ -45,6 +45,18 @@ Installation 자세한 설치 방법은 운영체제에 따라 달라서 링크�
  ubuntu mac window  docker pull Docker Image를 다운 받는 명령입니다.
 다음과 같은 구조를 가지고 있습니다. 좀더 자세한 정보는 링크를 확인하면 됩니다.
 docker pull [OPTIONS] NAME[:TAG|@DIGEST]  NAME  Dockerhub의 경우에 NAME에는 이름만 적어줍니다. 만약, 다른 Container Registry를 사용할 경우에는 이곳에 주소를 적어줍니다.   TAG  TAG가 주어지지 않으면 latest가 default입니다.</description>
+    </item>
+    
+    <item>
+      <title>Wireguard</title>
+      <link>https://coldbottle.github.io/posts/tools/wireguard/</link>
+      <pubDate>Tue, 09 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://coldbottle.github.io/posts/tools/wireguard/</guid>
+      <description>VPN을 구성해야 하는 이유? 공용 ip를 하나 더 받아서 활용하고 싶은 needs가 생겼다.
+그래서 oracle에서 무료 인스턴스를 띄워서 vpn을 구성하고, reverse proxy로 사용하면 이 needs를 충족시킬 수 있다.
+Oracle Cloud에서 무료 인스턴스 받기 잘 설명된 링크로 설명을 대체합니다.
+ 오라클 클라우드 가입하기 오라클 클라우드 구획, 가상 네트워크, 방화벽, 공용IP 설정하기 오라클 클라우드 인스턴스 생성 및 SSH 접속하기 오라클 클라우드 Ubuntu 20.04 인스턴스 기본 설정하기  iptable 초기화 sudo iptables -F &amp;amp;&amp;amp; sudo iptables -X &amp;amp;&amp;amp; sudo netfilter-persistent save &amp;amp;&amp;amp; sudo netfilter-persistent reload PiVPN Wireguard 설치 curl -L https://install.</description>
     </item>
     
   </channel>
